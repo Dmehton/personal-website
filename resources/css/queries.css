@@ -1,0 +1,89 @@
+/* small phones from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    /* section-1 */
+    
+    .main-title {
+        font-size: 150%;
+        margin-left: 10px;
+        padding-right: 0;
+    }
+    
+    .profile-pic img {
+        width: 40%;
+        height: auto;
+        border-radius: 6px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    /* about-me */
+    
+    .about-me-txt {
+        font-size: 80%;
+    }
+    
+    /* projects-section*/
+    
+    .project-img img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+}
+
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .main-title {
+        font-size: 130%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .profile-pic img {
+        width: 80%;
+        height: auto;
+        border-radius: 6px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+
+
+/* smaller phones with width less than 320px */
+@media only screen and (max-width: 320px) {
+    .social-links { margin-left: 0;}
+    
+    .icon-email{ padding-left: 10px;}
+    .icon-github{ padding-left: 10px; }
+   
+    .icon-linkedin{ 
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    
+    .about-me-title {
+        font-size: 25px;
+    }
+    
+    .about-me-txt {
+        font-size: 15px;
+    }
+    
+    .project-title {
+        font-size: 25px;
+    }
+    
+    .project-txt {
+        font-size: 13px;
+    }
+    
+ 
+  
+ 
+ 
+}
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		 <!--Bootstrap CDN-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+         <!--Font Awesome CDN-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        
+        <!--Normalize, Style and queries CDN-->
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        
+        
+        <title>Personal Website</title>
+        
+	</head>
+
+	<body>
+		<nav class="nav navbar nav-tabs navbar-fixed-top custom-top" id="custom-css">
+            <div class="container-fluid">
+                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                    <i class="fa fa-bars custom-bar" aria-hidden="true"></i>
+                </button>
+                <div class = "collapse navbar-collapse navHeaderCollapse">
+                    <ul class = "nav navbar-nav navbar-right">
+                        <li><a href="#Home" class="js--Flight">Home</a></li>
+                        <li><a href="#About" class="js--Tours">About</a></li>
+                        <li><a href="#Projects" class="js--About Us">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		
+		<header class="js-section-main" id="Home">
+			<div class="container-fluid">
+				<div class="profile-pic-contain">
+					<div class="profile-pic">
+						<div class="profile-pic">
+							<img src="resources/css/img/profile-pic.jpg">
+						</div>
+						<ul class="social-links">
+							<li><a href="divjot.mehton@gmail.com"><i class="fa fa-envelope icon icon-email" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/Dmehton"><i class="fa fa-github icon icon-github" aria-hidden="true"></a></i></li>
+							<li><a href="linkedin.com/in/yourname."><i class="fa fa-linkedin icon icon-linkedin" aria-hidden="true"></a></i></li>
+						</ul>
+					</div>
+					<h1 class="main-title">Divjot Mehton</h1>
+				</div>
+			</div>
+		</header>
+		
+		<section id="About">
+			<div class="container-fluid">
+				<div class="row">
+					<h2 class="about-me-title">About me</h2>
+					<div class="col-sm-12">
+						<div class="about-me-txt">
+							Hi, My name is Divjot Mehton and I am a full stack programmer. My passion lies in back-end. 
+						</div>
+						<div class="about-me-txt">
+							I enjoy writing SQL queries that are scalable and robust. I also have a strong focus on 
+							user-experience and responsive design. 
+						</div>
+						
+						<div class="about-me-txt">
+							Please check out my github!
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-3-projects">
+		 	<div class="container-fluid" id="Projects">
+				<div class="row">
+					<h2 class="project-title">Projects & Skills</h2>
+					<div class="col-sm-4 col-80">
+						<div class="projects">
+							<h3 class="project-sub-titles">Scorecliq</h3>
+							<div class="project-img">
+								<a href="https://www.scorecliq.com"><img src="resources/css/img/scorecliq-logo.jpg"></a>
+							</div>
+							<div class="project-txt">
+								Scorecliq is a content management app for leagues. 
+								Stack includes Ruby on Rails, PostgreSQL, Puma, Heroku, AWS, RSPEC,
+								jQuery and Bootstrap.
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 col-80">
+						<div class="projects">
+							<h3 class="project-sub-titles">Space Voyagers</h3>
+							<div class="project-img">
+								<a href="https://www.scorecliq.com"><img src="resources/css/img/space-voyagers.jpg"></a>
+							</div>
+							<div class="project-txt">
+								A futuristic space travel company that provides tours to Mars in 2075.
+								Stack includes HTML, CSS, Bootstrap and jQuery.
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-80">
+						<div class="projects">
+							<h3 class="project-sub-titles">PokeApp</h3>
+							<div class="project-img">
+								<a href="https://www.scorecliq.com"><img src="resources/css/img/pokeball.png"></a>
+							</div>
+							<div class="project-txt">
+								An AngularJS app interacting with the PokeApi.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	    <footer class="footer">
+	    	<div class="container">
+	    	    <h3 class="contact-head">Contact Me!</h3>
+	    		<div class="row">
+	    			<div class="col-sm-4 col-sm-offset-2 contact-1">
+	    				<div class="phone-icon">
+	    					<i class="fa fa-phone" aria-hidden="true"></i>
+	    				</div>
+	    				<div class="phone-num">
+	    					647-382-7468
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4  contact-2">
+	    				<div class="email-icon">
+	    					<i class="fa fa-envelope" aria-hidden="true"></i>
+	    				</div>
+	    				<div class="email-add">
+	    					divjot65@gmail.com
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </footer>
+	    
+	    <!--Jquery for Bootstrap Dependency-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        
+	    <!--js file-->
+	    <script src="vendors/js/bootstrap.js"></script>
+	    <script src="resources/js/script.js"></script>
+		
+	</body>
+</html>
